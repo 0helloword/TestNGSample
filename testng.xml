@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="TestNGSample">
+	<listeners>
+		<listener class-name="listeners.OSFilter" />
+		<!--  listener class-name="listeners.ProgressTracker" /-->
+	</listeners>
+	<test name="ProgressTracker Demo">
+		<classes>
+			<class name="tests.SampleTest" />
+		</classes>
+	</test>
+</suite>

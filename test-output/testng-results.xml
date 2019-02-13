@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15041" started-at="2017-05-07T08:47:26Z" finished-at="2017-05-07T08:47:41Z">
+    <groups>
+      <group name="OS_Windows">
+        <method signature="SampleTest.test2()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test2" class="tests.SampleTest"/>
+        <method signature="SampleTest.test3()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test3" class="tests.SampleTest"/>
+        <method signature="SampleTest.test4()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test4" class="tests.SampleTest"/>
+        <method signature="SampleTest.test5()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test5" class="tests.SampleTest"/>
+      </group> <!-- OS_Windows -->
+      <group name="OS_Linux">
+        <method signature="SampleTest.test1()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test1" class="tests.SampleTest"/>
+        <method signature="SampleTest.test2()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test2" class="tests.SampleTest"/>
+        <method signature="SampleTest.test3()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test3" class="tests.SampleTest"/>
+      </group> <!-- OS_Linux -->
+    </groups>
+    <test name="Default test" duration-ms="15041" started-at="2017-05-07T08:47:26Z" finished-at="2017-05-07T08:47:41Z">
+      <class name="tests.SampleTest">
+        <test-method status="PASS" signature="test2()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test2" duration-ms="3016" started-at="2017-05-07T16:47:26Z" finished-at="2017-05-07T16:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test3" duration-ms="2001" started-at="2017-05-07T16:47:29Z" finished-at="2017-05-07T16:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test4" duration-ms="5001" started-at="2017-05-07T16:47:31Z" finished-at="2017-05-07T16:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:tests.SampleTest@f1cdfb]" name="test5" duration-ms="5000" started-at="2017-05-07T16:47:36Z" finished-at="2017-05-07T16:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- tests.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
